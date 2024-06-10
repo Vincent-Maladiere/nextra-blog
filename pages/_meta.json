@@ -1,0 +1,20 @@
+{
+    "proba-ml": {
+        "title": "Proba ML",
+        "type": "page"
+    },
+    "apply-2022": {
+        "title": "Apply Conf 2022",
+        "type": "page"
+    },
+    "about": {
+        "title": "About",
+        "type": "page",
+        "href": "/about"
+    },
+    "contact": {
+        "title": "Contact",
+        "type": "page",
+        "href": "mailto:maladiere.vincent@gmail.com"
+    }
+}

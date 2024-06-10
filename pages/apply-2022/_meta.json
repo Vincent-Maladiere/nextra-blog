@@ -1,0 +1,19 @@
+{
+    "home": "Home",
+    "managing-the-flywheel": "1. Managing the flywheel, Mike del Balso, Tecton",
+    "lakehouse": "2. Lakehouse a new kind of platform, Matei Zaharia",
+    "online-predictions": "3. ML for online prediction, Chip Huyen, Claypot AI",
+    "why-is-ml-hard": "4. Why is ML hard Tal Shaked, Snowflake",
+    "diy-feature-store": "5. DIY minimal feature store, João Santiago, Billi",
+    "rapid-model-deployment": "6. Enabling rapid model deployment in healthcare",
+    "extending-os-feature-store": "7. Extending Open Source feature Store, Joost & Thi",
+    "compass-composable-scalable": "8. Compass Composable & Scalable Signal Engineering",
+    "streaming-is-an-implementation-detail": "9. Streaming is an implementation detail, Arjun Nar",
+    "effective-system-ml-dev": "10. Effective system ML development, Leonard Aukea",
+    "how-to-draw-an-owl": "11. How to draw an owl and build effective ML stack",
+    "panel-1": "12. Panel - What engineers should know when building",
+    "production-rl": "13. Is production RL at a tipping point? Waleed Kabo",
+    "declarative-ml-systems-and-ludwig": "14. Declarative ML Systems and Ludwig, Pierre Molin",
+    "accelerating-model-deployment-velocity": "15. Accelerating model deployment velocity",
+    "semantic-layers": "16 Semantic Layers & Feature stores, Drew Banin"
+}
