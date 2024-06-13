@@ -5,9 +5,9 @@ import { GoArrowRight } from "react-icons/go";
 
 const Guide = () => {
   return (
-    <section className="flex flex-col items-center gap-5 w-[80%]">
-      <h2>Guides</h2>
-      <p className="text-center">
+    <section className="flex flex-col items-center w-[80%]">
+      <h2 className="mb-1">Guides</h2>
+      <p className="text-center mb-6">
         These resources helped me grasp the theory of ML, the main use-cases in
         MLOps and how to contribute to open source projects like scikit-learn. I
         use these extensively for teaching.
@@ -21,10 +21,11 @@ const Guide = () => {
               href={l.url}
               className="card bg-background border border-black h-full"
             >
-              <div className="flex flex-col gap-5">
-                <Image alt={l.title} src={l.img} width={300} height={100} />
-                <div>
-                  <h3>{l.title}</h3>
+              <div className="flex flex-col">
+                <Image className="mb-6" alt={l.title} src={l.img} width={300} height={100} />
+                
+                <div className="mb-6">
+                  <h3 className="mb-1">{l.title}</h3>
                   <p>{l.desc}</p>
                 </div>
               </div>

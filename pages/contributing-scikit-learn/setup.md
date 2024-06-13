@@ -11,19 +11,17 @@ The major difference between tech companies and open source that in open source 
 
 Instead, you must develop your branches on your local fork, before submitting your pull request (PR) from your fork to the main branch of the original repo:
 
-![Figure from author](Setup%201040c80677f74ab485207672fa7422bb/scikit-contrib.png)
-
-Figure from author
+![Figure from author](./scikit-contrib.png)
 
 Let’s setup your local working environment.
 
 1. Fork the original repository
     
-    ![Screen Shot 2022-08-07 at 15.39.32.png](Setup%201040c80677f74ab485207672fa7422bb/Screen_Shot_2022-08-07_at_15.39.32.png)
+    ![Screen Shot 2022-08-07 at 15.39.32.png](./Screen_Shot_2022-08-07_at_15.39.32.png)
     
 2. Clone the project on your local machine
     
-    ![Screen Shot 2022-08-07 at 15.47.44.png](Setup%201040c80677f74ab485207672fa7422bb/Screen_Shot_2022-08-07_at_15.47.44.png)
+    ![Screen Shot 2022-08-07 at 15.47.44.png](./Screen_Shot_2022-08-07_at_15.47.44.png)
     
     On your terminal:
     
@@ -50,9 +48,9 @@ Let’s setup your local working environment.
     
 4. [Install mamba from forge](https://github.com/conda-forge/miniforge#mambaforge)
     
-    Mamba is a fast front-end from conda
+    Mamba is a fast front-end from conda.
     
-    Conda is useful because it links all dependencies to the same backend, whereas *pip* setup adhoc backends for each library
+    Conda is useful because it links all dependencies to the same backend, whereas *pip* setup adhoc backends for each library.
     
 5. Install mamba compilers
     
@@ -99,8 +97,5 @@ Let’s setup your local working environment.
     ```bash
     python -c "import sklearn; sklearn.show_versions()"
     ```
-    
 
 If the command is successful, go to the next tutorial to start contributing!
-
-[Find a good first issue](Find%20a%20good%20first%20issue%207716e306d0fa4ed7a06b271a7ab74b62.md)

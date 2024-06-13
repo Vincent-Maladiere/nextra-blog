@@ -1,6 +1,6 @@
-# Dev estimators cheatsheet
+# Developing estimators
 
-Based on: [Developing scikit-learn estimators](Utils%20cheatsheet%2071ba33c64aab45da8698509ccc8f77f4.md)
+Based on: [Developing scikit-learn estimators](https://scikit-learn.org/stable/developers/develop.html)
 
 Or “How to safely interact with Pipelines and model selection”
 
@@ -158,7 +158,7 @@ How new code should be written for inclusion in scikit-learn and make review eas
 
 ### Style
 
-- Format and indentation follows [PEP8](Dev%20estimators%20cheatsheet%2006384ee6faa44fb486b0ea72eae31d86.md)
+- Format and indentation follows [PEP8](https://peps.python.org/pep-0008/)
 - Use underscores to separate words in non class names: `n_samples` rather than `nsamples`.
 - Avoid multiple statements on one line. Prefer a line return after `if/for`
 - Use relative imports for references inside scikit-learn.
@@ -168,5 +168,3 @@ How new code should be written for inclusion in scikit-learn and make review eas
 - Use the [numpy docstring standard](https://numpydoc.readthedocs.io/en/latest/format.html#numpydoc-docstring-guide)
 
 Check the utils module for better integration and reusability
-
-[Utils cheatsheet](Utils%20cheatsheet%2071ba33c64aab45da8698509ccc8f77f4.md)

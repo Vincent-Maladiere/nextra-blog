@@ -5,13 +5,13 @@ import { socials, libs } from "../lib/data";
 const Hero = () => {
   return (
     <section className="flex flex-col justify-between gap-10">
-      <div className="flex flex-col md:flex-row item-start photo-card">
+      <div className="flex flex-col lg:flex-row item-start photo-card">
         <Image
           alt="profile picture of Vincent Maladiere"
           src="/circle_head.png"
           width={300}
           height={300}
-          className="mr-10"
+          className="mb-6 lg:mr-10"
         />
 
         <div className="flex flex-col shrink-[5]">
@@ -22,7 +22,7 @@ const Hero = () => {
             at Inria (in France). You can reach me at:
           </p>
 
-          <div className="flex flex-wrap flex-row justify-between gap-2">
+          <div className="flex flex-wrap flex-row justify-start gap-2">
             {socials.map((l) => (
               <Link key={l.title} href={l.url} className="social-button">
                 {l.icon} {l.title}
@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
 
       <div className="flex flex-col gap-3">
-        <h3 className="text-center">I contributed to</h3>
+        <h3 className="text-center mb-1">I contributed to</h3>
         <div className="w-full flex-wrap md:flex-nowrap flex justify-center items-center align-center gap-5 md:gap-[20%]">
           {libs.map((l) => (
             <Link key={l.title} href={l.url}>
@@ -45,7 +45,7 @@ const Hero = () => {
 
       <div className="flex gap-5">
         <div className="paper-callout">
-          <h2>I took part in this paper</h2>
+          <h3 className="mb-1">I took part in this paper</h3>
           <Link
             key="competing risks"
             href="https://www.dropbox.com/scl/fi/9m8jqiiw3u3eb6z5xn6tz/Competing_Risks.pdf?rlkey=bgy0cgp2h3p3kcwaql9mqh9sn&st=zyllgc5b&dl=0"

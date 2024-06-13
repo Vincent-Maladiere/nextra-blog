@@ -21,9 +21,9 @@ p a {
   text-decoration: underline;
 }
 
-p img {
+/* p img {
   max-width: 500px;
-}
+} */
 
 @media only screen and (max-width: 600px) {
   p img {
@@ -39,16 +39,16 @@ p {
   font-size: 20px;
   font-weight: 200;
 }
-h1, h2, h3 {
-  font-weight: 600;
+.layout h1, .layout h2, .layout h3 {
+  font-weight: 600 !important;
 }
 
-h2 {
-  font-size: 40px;
+.layout h2 {
+  font-size: 35px !important;
 }
 
-h3 { 
-  font-size: 25px;
+.layout h3 { 
+  font-size: 25px !important;
 }
 
 .subtitle {
@@ -107,7 +107,7 @@ img {
   flex-direction: column;
   gap: 10px;
   align-items: flex-start;
-  justify-content: flex-start; 
+  justify-content: space-between; 
 }
 
 .card {
@@ -118,7 +118,6 @@ img {
   transition: color 0.15s ease, border-color 0.15s ease, transform 0.2s ease;
   display: flex;
   flex-direction: column;
-  gap: 15px;
   align-items: flex-start;
   justify-content: space-between;
 }
@@ -133,7 +132,7 @@ img {
   gap: 15px;
   align-items: flex-start;
   justify-content: space-between;
-  background-color: #f2f6e9;
+  background-color: #e8f7d8;
 }
 
 .card:hover,

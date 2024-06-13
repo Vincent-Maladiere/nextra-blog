@@ -1,4 +1,4 @@
-# Utils cheatsheet
+# Utility Functions
 
 Based on: [Utilities for developer](https://scikit-learn.org/stable/developers/utilities.html#developers-utils)
 
